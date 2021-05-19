@@ -1,0 +1,91 @@
+/* --------- GENERAL ---------- */
+
+body
+{
+    font-family: 'Kumbh Sans', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+
+/* ------- CONTAINER ------- */
+
+main .container
+{
+    width: 920px;
+
+    margin: 130px 0;
+
+    background-color: white;
+
+    border-radius: 25px;
+
+    display: flex;
+}
+
+main .container>div
+{
+    width: 50%;
+}
+
+
+
+
+/* -------- LEFT CONTAINER -------- */
+
+main .container>.left-container
+{
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: 1000px;
+    background-position: -610px -310px;
+    background-repeat: no-repeat;
+
+    height: 510px;
+
+    position: relative;
+
+    display: flex;
+}
+
+main .container .left-container>.container-img
+{
+    overflow: hidden;
+
+    width: 100%;
+
+    position: relative;
+}
+
+main .container .left-container>img
+{
+    position: absolute;
+    left: -93px;
+    top: 206px;
+}
+
+main .container .left-container .container-img>img
+{
+    position: absolute;
+    left: -80px;
+    top: 70px;
+}
+
+
+/* ---------- RIGHT CONTAINER ---------- */
+
+main .container .right-container .h1
+{
+        margin-top: 70px;
+}
+
+main .container .right-container .h1>h1
+{
+    font-size: 30px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
