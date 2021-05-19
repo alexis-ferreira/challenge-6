@@ -80,6 +80,7 @@ main .container .left-container .container-img>img
 main .container .right-container .h1
 {
         margin-top: 70px;
+        margin-bottom: 25px;
 }
 
 main .container .right-container .h1>h1
@@ -88,4 +89,45 @@ main .container .right-container .h1>h1
     font-weight: 700;
 
     text-transform: uppercase;
+}
+
+
+
+/* -------- ACCORDION -------- */
+
+main .container .right-container>.accordionDiv
+{
+    font-size: 12px;
+
+    color: hsl(238, 29%, 16%);
+}
+
+main .container .right-container .accordionDiv>.accordion
+{
+    width: 350px;
+    height: 50px;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+
+    background-color: white;
+
+    text-align: start;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .container .right-container .accordionDiv>.content
+{
+    display: block;
+
+    width: 350px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
