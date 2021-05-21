@@ -20,7 +20,7 @@ for (let i = 0; i < btnAccordion.length; i++){
             content.style.maxHeight=null;
             // console.log(content);
             arrows[i].style.transform='rotate(0deg)';
-            box.style.left='-93px';
+            box.style.left='38px';
             btnAccordion[i].style.fontWeight="400";
             btnAccordion[i].style.color="";
         }
@@ -28,7 +28,7 @@ for (let i = 0; i < btnAccordion.length; i++){
             content.style.maxHeight = content.scrollHeight + "px";
             // console.log(content);
             arrows[i].style.transform='rotate(180deg)';
-            box.style.left='-135px';
+            box.style.left='18px';
             btnAccordion[i].style.fontWeight="700";
             btnAccordion[i].style.color="hsl(238, 29%, 16%)";
         }
