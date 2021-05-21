@@ -65,7 +65,7 @@ main .container .left-container>img
     position: absolute;
     left: -93px;
     top: 206px;
-    transition: left 500ms;
+    transition: left 300ms;
 }
 
 main .container .left-container .container-img>img
