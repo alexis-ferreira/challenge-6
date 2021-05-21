@@ -18,7 +18,7 @@ main .container
 {
     width: 920px;
 
-    margin: 150px 0;
+    margin: 160px 0;
 
     background-color: white;
 
@@ -65,6 +65,7 @@ main .container .left-container>img
     position: absolute;
     left: -93px;
     top: 206px;
+    transition: left 500ms;
 }
 
 main .container .left-container .container-img>img
@@ -123,12 +124,21 @@ main .container .right-container .accordionDiv>.accordion
     align-items: center;
 
     cursor: pointer;
+
+    transition: font-weight 500ms;
 }
 
-/* main .container .right-container .accordionDiv>.accordion>img
+main .container .right-container .accordionDiv>.accordion>.arrow
 {
-    transform: rotate(180deg);
-} */
+    transition: transform 300ms;
+}
+
+main .container .right-container .accordionDiv>.accordion:hover
+{
+    color: hsl(14, 88%, 65%);
+
+    transition: color 200ms;
+}
 
 main .container .right-container .accordionDiv>.content
 {
